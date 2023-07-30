@@ -1,6 +1,9 @@
 name: Build environment and Run Unit Test
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
